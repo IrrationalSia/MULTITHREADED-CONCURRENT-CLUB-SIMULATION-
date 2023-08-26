@@ -14,6 +14,8 @@ public class ClubGrid {
 	private GridBlock entrance; //hard coded entrance
 	private final static int minX =5;//minimum x dimension
 	private final static int minY =5;//minimum y dimension
+   //
+   Barman barman;
 	
 	private PeopleCounter counter;
 	

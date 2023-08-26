@@ -76,7 +76,7 @@ public class Clubgoer extends Thread {
         while(!club.barman.hasDrink()){
          club.barman.wait();
          }
-         club.deliver.deliverDrink();
+         club.barman.deliverDrink();
         System.out.println("Thread " + this.ID + " received a drink");
         
     }
